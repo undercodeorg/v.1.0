@@ -397,3 +397,10 @@ footer {
   .partners_list ul {
       list-style: none;
   }
+
+  h3.resources {
+      text-align: center;
+      font-weight: 500;
+      /* color: #111; */
+      margin: 10px 0;
+  }
