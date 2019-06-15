@@ -21,6 +21,23 @@ body {
       font-size: .9rem;
   }
 
+  .form_one {
+    text-align: center;
+    background: rgba(255,255,255,.97)!important;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)!important;
+    max-width: 500px;
+    margin: 150px auto;
+    padding: 30px 20px;
+  }
+
+  #donate_text {
+      margin-bottom: 30px;
+  }
+
+  .donate_form {
+
+  }
+
   .navBar_section {
     background: rgba(255,255,255,.97)!important;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)!important;
@@ -66,12 +83,9 @@ body {
   }
 
   .logo {
-<<<<<<< HEAD
-=======
       font-size: 1.4em;
       font-weight: bold;
       color: black;
->>>>>>> upstream/master
     display: inline-block;
     margin-top: 10px;
     margin-left: 20px;
@@ -374,7 +388,3 @@ footer {
       display: none;
       }
   } /* ================ navigation styling end ====================== */
-<<<<<<< HEAD
-=======
-
->>>>>>> upstream/master
