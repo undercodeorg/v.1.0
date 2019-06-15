@@ -34,11 +34,13 @@ a {
   text-decoration: none;
 }
 
+
 /* --------------------------------
 
 Main Components
 
 -------------------------------- */
+
 .navbar a.logo{
   font-family: "Poppins", sans-serif;
 font-size: 1.8em;
@@ -287,6 +289,7 @@ xgallery
   display: none;
 }
 .cd-gallery li h2{
+  font-size: 24px;
   color: #000;
   font-weight: 400;
   margin: 10px 0 5px;
@@ -298,12 +301,22 @@ xgallery
 .cd-gallery li p{
   color: #000;
   font-weight: 400;
-  font-size: 13px;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
   list-style-type: none;
   line-height: 1.6em;
   padding: 5px 10px;
 }
+
+.cd-gallery li h3{
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  list-style-type: none;
+  padding: 10px 10px;
+}
+
 .cd-gallery li a{
   font-weight: 400;
   text-align: center;
