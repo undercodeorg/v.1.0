@@ -34,7 +34,7 @@ body {
       margin-bottom: 30px;
   }
 
-  
+
 
   .navBar_section {
     background: rgba(255,255,255,.97)!important;
@@ -57,15 +57,15 @@ body {
   }
 
   .btn {
-      background-color: none;
+      background-color: #029DE0;
       padding: 10px 20px;
-      color: #029DE0;
+      color: #fff;
       border: 1px solid #029DE0;
       border-radius: 10px;
   }
 
   .btn:hover {
-      color: #029DE0;
+      color: #fff;
   }
 
   #web_logo {
@@ -81,12 +81,23 @@ body {
   }
 
   .logo {
-      font-size: 1.4em;
-      font-weight: bold;
-      color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
     display: inline-block;
     margin-top: 10px;
     margin-left: 20px;
+    text-decoration: none;
+  }
+
+  .logo1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
   }
 
   .navbar-toggle {
@@ -319,14 +330,6 @@ footer {
     color: #111;
 }
 
-.secondary {
-    list-style: none;
-}
-
-.secondary li {
-    padding: 0;
-}
-
 /* Media Queries */
 
   @media(max-width: 768px) {
@@ -403,29 +406,41 @@ footer {
       margin: 10px 0;
   }
 
-  /* About - Credits */
+ul li {
+    color: #333;
+}
 
+.about_center {
+    max-width: 800px;
+    margin: 50px auto;
+}
 
-
-.cedits_list {
+.about_center ul {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
 }
 
-.credits_list li {
-    padding: 0 30px;
+.about_center li {
+    padding: 10px 5px;
 }
 
-.credits_list li a {
-    text-decoration: none;
-    color: #111;
-}
-
-.secondary {
-    list-style: none;
-}
-
-.secondary li {
+.about_center li a {
+    color: #333;
     padding: 0;
+}
+
+.social_icons {
+    list-style: none;
+    display: flex;
+}
+
+.social_icons li {
+    display: flex;
+}
+
+.grid_content .fas {
+    font-size: 45px;
+    margin: 20px 0;
+    color: #029DE0;
 }
