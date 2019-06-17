@@ -34,9 +34,7 @@ body {
       margin-bottom: 30px;
   }
 
-  .donate_form {
-
-  }
+  
 
   .navBar_section {
     background: rgba(255,255,255,.97)!important;
@@ -404,3 +402,30 @@ footer {
       /* color: #111; */
       margin: 10px 0;
   }
+
+  /* About - Credits */
+
+
+
+.cedits_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.credits_list li {
+    padding: 0 30px;
+}
+
+.credits_list li a {
+    text-decoration: none;
+    color: #111;
+}
+
+.secondary {
+    list-style: none;
+}
+
+.secondary li {
+    padding: 0;
+}
