@@ -6,7 +6,11 @@
     <!-- Website ICON -->
     <link rel="icon" href="img/logo.svg">
     <!-- Main CSS -->
+   
     <link rel = "stylesheet" type = "text/css" href="css/main.css" />
+    
+   
+    
 
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -23,12 +27,16 @@
           <span class="navbar-toggle" id="js-navbar-toggle">
               <i class="fa fa-bars"></i>
           </span>
-          <a href="index.html"><span class="logo1">undercode.</span></a>
+          <a href="index.html" class="logo"><img src="/img/logo_nav.jpg"></a>
 
           <ul class="main-nav" id="js-menu">
             <li>
                 <a href="index.html" class="nav-links">Home</a>
-            </li><li>
+            </li>
+            <li>
+                <a href="about.html" class="nav-links">About us</a>
+            </li>
+            <li>
                 <a href="resources.html" class="nav-links">Resources</a>
             </li>
               <li>
@@ -40,7 +48,11 @@
           </ul>
         </nav>
       </div>
-  </section> <!-- ===== navbar end ===== -->
+  </section> 
+  
+  <!-- ===== navbar end ===== -->
+
+  <!-- ===== Hero header start ===== -->
 
   <section>
     <div class="wrapper">
@@ -52,6 +64,7 @@
                 Find any resource from all over the internet in Frontend, Backend, Fullstack web development and UI/UX web design.</p>
 
                 <br />
+                <a class="header_link" href="resources.html">Resources</a>
                 <a class="header_link" href="donate.html">Donate</a>
             </div>
             <div class="content">
@@ -61,6 +74,10 @@
         </div>
     </div>
   </section>
+
+<!-- ===== Hero Header end ===== -->
+
+<!-- ===== Features start ===== -->
 
   <section id="features" class="features">
       <div class="wrapper pad">
@@ -86,6 +103,10 @@
       </div>
   </section>
 
+  <!-- ===== Features End ===== -->
+
+  <!-- ===== Partners End ===== -->
+
   <section class="partners">
       <div class="wrapper">
           <h2 class="center">Our Partners</h2>
@@ -93,6 +114,7 @@
           <div class="partner_grid">
               <div class="icons">
                 <img src="img/Mongodb.svg" alt="MongoDB" />
+                <p><b>MongoDB</b></p>
               </div>
               <div class="icons shift">
                 <p><b>MatterMost</b></p>
@@ -107,7 +129,11 @@
       </div>
   </section>
 
-  <section class="resource_index">
+  <!-- ===== Partners End ===== -->
+
+  <!-- ===== Resource Index End ===== -->
+
+  <!-- <section class="resource_index">
     <div class="wrapper pad">
         <h2 class="center">Resources Index</h2>
         <hr>
@@ -156,7 +182,58 @@
             </div>
         </div>
     </div>
-  </section>
+  </section> -->
+
+<!-- ===== Resource Index Carousel Start ===== -->
+<section>
+    <h2 class="center">Resources Index</h2>
+    <hr>
+        <div class="slider-wrapper">
+            <div class="slider">
+                    <div class="slides">
+                            <div id="slide-1">
+                                <img src="img/html-ninja.jpg" alt="HTML - The Net Ninja" />
+                                <h4>Net Ninja HTML (fresher)</h4>
+                                <p>Learn HTML5 by building your own website in less than an hour!</p>
+                            </div>
+                            <div id="slide-2">
+                                <img src="img/sass-ed.jpg" alt="Learn Sass - Dev Ed" />
+                                <h4>Learn Sass (CSS Preprocessor)</h4>
+                                <p>In this mini crash course we are going to learn everything about Sass.</p>
+                                    
+                            </div>
+                            <div id="slide-3">
+                                    <img src="img/uiux-.jpg" alt="UI/UX Tutorial - Antony Conboy" />
+                                    <h4>UI/UX Design</h4>
+                                    <p>This video will give you a confident understanding of UX.</p>
+                            </div>
+                            <div id="slide-4">
+                                    <img src="img/jses6-ninja.jpg" alt="JSES6 - The Net Ninja" />
+                                    <h4>JavaScript (advanced)</h4>
+                                    <p>In this ecmascript 6 tutorial, I'll be introducing you to ES6, join in!</p>
+                            </div>
+                            <div id="slide-5">
+                                    <img src="img/cs50-harvard.jpg" alt="CS50 by Harvard" />
+                                    <h4>CS50 by Harvard</h4>
+                                    <p>CS50 by Harvard - Enroll the best CS course in the world!</p>
+                            </div>
+                            <div id="slide-6">
+                                    <img src="img/AIcourse.jpg" alt="Machine Learning - Geek's Lesson" />
+                                    <h4>Machine Learning Course</h4>
+                                    <p>Machine Learning fast-paced, practical introduction to machine learning.</p>
+                            </div>
+                    </div>  
+        </div>
+    </div>
+    <div class="header_link">
+            <a class="slider-btn" href="resources.html">Resources</a>
+        </div-btn>
+</section>
+
+
+<!-- ===== Resource Index Carousel End ===== -->
+
+
   <section id="newsletter" class="newsletter">
         <div class="wrapper">
             <div class="flex_container">
@@ -191,7 +268,7 @@
         <div class="wrapper">
             <ul class="footer_nav">
                 <li>2019 by <a href="#">undecode</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="data-policy.html">Data-Policy</a></li>
                 <li>support@undercode.com</li>
                 <li>Lisbon, Portugal</li>
                 <li>
@@ -211,5 +288,6 @@
   </section>
 <!-- ===== nav script ===== -->
 <script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
 </body>
 </html>
