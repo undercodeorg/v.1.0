@@ -11,6 +11,11 @@
 
 
 	<link href='http://fonts.googleapis.com/css?family=Poppins:400,300,600,700' rel='stylesheet' type='text/css'>
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" href="css/main.css">
 
@@ -22,7 +27,7 @@
 
 	<!-- Main CSS -->
 
-    <link rel = "stylesheet" type = "text/css" href="css/main.css" />
+    
 
 
 
@@ -123,29 +128,26 @@
 
 					<h3 class="resources">Level: Beginner</h3>
 
-					<!--<p id="partner_link"><a href="https://www.youtube.com/watch?v=Y1BlT4_c_SU&list=PL4cUxeGkcC9ibZ2TSBaGGNrgh4ZgYE6Cc" target="_blank" class="partner_link">Go to &raquo;</a></p>-->
-					<button class="trigger">Click here to trigger the modal!</button>
-					<div class="modal">
-						<div class="modal-content">
-							<span class="close-button">&times;</span>
-							<div class="wrapper">
-									<div class="flex_container_course">
-										<div class="container">
-											<h1 class="course-title">The Net Ninja</h1>
-											<p class="course-description">
-											The world can be a better place; if we learn to think, we learn to create. In a world of possibilities, we want to help people become exceptional.</p>
-											<br />
-											<iframe width="800" height="510" src="https://www.youtube.com/embed/?listType=playlist&list=PL4cUxeGkcC9ibZ2TSBaGGNrgh4ZgYE6Cc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-											<!-- DONWLOAD AVAILABLE ONLY FOR ORGANIZATIONS / SCHOOLS-->
-											<button class="course-download">Download</button>
-										</div>
-
-									</div>
-								</div>
-						</div>
-					</div>
+					<!-- Modal -->
+					<div id="modal-panel">
+		<p><a class="button" href="#html-ninja">Go to video &raquo; </a></p>
+	 				 </div>
+	  
+					  <div id="html-ninja" class="overlay blue">
+		  <div class="popup">
+			  <h1>Introduction to HTML</h1>
+			  <a  class="close" href="#0">&times;</a>
+			  <div class="content-video">
+				  <iframe class="embedded-video" src="https://www.youtube.com/embed?v=Y1BlT4_c_SU&list=PL4cUxeGkcC9ibZ2TSBaGGNrgh4ZgYE6Cc" frameborder="0" allowfullscreen></iframe>
+				  <p class="resources">Learn HTML5 by building your own website in less than an hour!</p>
+			  </div>
+			  <h2>Powered by: <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg " target="_blank">The Net Ninja</a></h2>
+				  </div>
+				 
+	 				 </div>
+	   				<!-- /Modal -->
 				</li>
-
+	 
 				<li class="mix front-end html radio2 option3"><img src="img/html5reponsive.jpg" alt="HTML5 Responsive - Traversy Media">
 
 					<h2>HTML 5 Responsive</h2>
@@ -154,8 +156,22 @@
 
 					<h3 class="resources">Level: Beginner</h3>
 
-					<p id="partner_link"><a href=" https://www.youtube.com/watch?v=UB1O30fR-EE&list=PLillGF-" target="_blank" class="partner_link">Go to &raquo;</a></p>
-
+					<!-- Modal -->
+						<div id="modal-panel">
+							<p><a class="button" href="#html-traversy">Go to video &raquo; </a></p>
+	  					</div>
+	  
+	  					<div id="html-traversy" class="overlay blue">
+		 					<div class="popup">
+			 				<h1>HTML 5 Responsive</h1>
+			 				<a class="close" href="#0">&times;</a>
+			  				<div class="content-video">
+								<iframe class="embedded-video" src="https://www.youtube.com/embed?v=UB1O30fR-EE&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU" frameborder="0" allowfullscreen></iframe>
+				   				<p class="resources">In this crash course I will cram as much about HTML that I can.</p>
+			   				</div>
+			  				<h2>Powered by: <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg " target="_blank">Traversy Media</a></h2>
+		  					</div>
+	  					</div>
 				</li>
 
 				<li class="mix front-end css radio2 option4"><img src="img/css-net.jpg" alt="CSS - The Net Ninja">
@@ -165,9 +181,23 @@
 					<p class="resources">Welcome to your CSS tutorial for beginners. Join us.</p>
 
 					<h3 class="resources">Level: Beginner</h3>
-
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=I9XRrlOOazo&list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT" target="_blank" class="partner_link">Go to &raquo;</a></p>
-
+					
+					<!-- Modal -->
+					<div id="modal-panel">
+							<p><a class="button" href="#css-net">Go to video &raquo; </a></p>
+	  					</div>
+	  
+	  					<div id="css-net" class="overlay blue">
+		 					<div class="popup">
+			 				<h1>Introduction to CSS</h1>
+			 				<a class="close" href="#0">&times;</a>
+			  				<div class="content-video">
+								<iframe class="embedded-video" src="https://www.youtube.com/embed?v=I9XRrlOOazo&list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT" frameborder="0" allowfullscreen></iframe>
+				   				<p class="resources">Welcome to your CSS tutorial for beginners. Join us!</p>
+			   				</div>
+			  				<h2>Powered by: <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg" target="_blank">Traversy Media</a></h2>
+		  					</div>
+						  </div>
 				</li>
 
 				<li class="mix front-end responsive radio2 option2"><img src="img/cssgrid-brad.jpg" alt="CSS GRID - Traversy Media">
@@ -177,8 +207,22 @@
 					<p class="resources">CSS Grid layout and how to create grid based layouts and alignments.</p>
 
 					<h3 class="resources">Level: Enthusiast</h3>
-
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=jV8B24rSN5o" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<!-- Modal -->
+					<div id="modal-panel">
+							<p><a class="button" href="#cssgrid-net">Go to video &raquo; </a></p>
+	  					</div>
+	  
+	  					<div id="cssgrid-net" class="overlay blue">
+		 					<div class="popup">
+			 				<h1>CSS Grid Layout</h1>
+			 				<a class="close" href="#">&times;</a>
+			  				<div class="content-video">
+								<iframe class="embedded-video" src="https://www.youtube.com/embed/jV8B24rSN5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
+				   				<p class="resources">CSS Grid layout and how to create grid based layouts and alignments.</p>
+			   				</div>
+			  				<h2>Powered by: <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg" target="_blank">Traversy Media</a></h2>
+		  					</div>
+						  </div>
 
 				</li>
 
@@ -190,7 +234,24 @@
 
 					<h3 class="resources">Level: Beginner</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<!-- Modal -->
+					<div id="modal-panel">
+							<p><a class="button" href="#css-net">Go to video &raquo; </a></p>
+	  					</div>
+	  
+	  					<div id="css-net" class="overlay blue">
+		 					<div class="popup">
+			 				<h1>CSS Grid Layout</h1>
+			 				<a class="close" href="#">&times;</a>
+			  				<div class="content-video">
+								<iframe class="embedded-video" src="https://www.youtube.com/embed?v=yfoY53QXEnI" frameborder="0" allowfullscreen></iframe>
+				   				<p class="resources">CSS Grid layout and how to create grid based layouts and alignments.</p>
+			   				</div>
+			  				<h2>Powered by: <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg" target="_blank">Traversy Media</a></h2>
+		  					</div>
+						  </div>
+
+					
 
 				</li>
 
@@ -202,7 +263,7 @@
 
 					<h3 class="resources">Level: Beginner</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=JJSoEo8JSnc" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=JJSoEo8JSnc" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -214,7 +275,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=Zz6eOVaaelI" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=Zz6eOVaaelI" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -226,7 +287,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=3tLb3i7GB38&list=PL4cUxeGkcC9g9Vh9MAA-XKnfJsWZnPZFw" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=3tLb3i7GB38&list=PL4cUxeGkcC9g9Vh9MAA-XKnfJsWZnPZFw" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -238,7 +299,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=5GcQtLDGXy8" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=5GcQtLDGXy8" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -250,7 +311,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=xvfm7IpEkBk&list=PL4cUxeGkcC9g_69kOfXICzT_hZ79_td99" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=xvfm7IpEkBk&list=PL4cUxeGkcC9g_69kOfXICzT_hZ79_td99" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -262,7 +323,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3></h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=QAgrHLtG1Yk&list=PL4cUxeGkcC9jE_cGvLLC60C_PeF_24pvv" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=QAgrHLtG1Yk&list=PL4cUxeGkcC9jE_cGvLLC60C_PeF_24pvv" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -274,7 +335,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=gCZ3y6mQpW0&list=PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=gCZ3y6mQpW0&list=PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -286,7 +347,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=nqT8c5OFjEQ" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=nqT8c5OFjEQ" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -298,7 +359,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=ZpduVPHZ5Aw" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=ZpduVPHZ5Aw" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -310,7 +371,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=jVe1GBCqFIE&list=PL4cUxeGkcC9hNUJ0j6ccnOAcJIPoTRpO4" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=jVe1GBCqFIE&list=PL4cUxeGkcC9hNUJ0j6ccnOAcJIPoTRpO4" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -322,7 +383,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=hdI2bqOjy3c" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=hdI2bqOjy3c" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -334,7 +395,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=qoSksQ4s_hg&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=qoSksQ4s_hg&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -346,7 +407,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=0Mp2kwE8xY0&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=0Mp2kwE8xY0&list=PL4cUxeGkcC9gKfw25slm4CUDUcM_sXdml" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -358,7 +419,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=0ik6X4DJKCc" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=0ik6X4DJKCc" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -370,7 +431,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=mPd2aJXCZ2g" target="_blank" class="partner_link">Go to &raquo;</a></p>				</li>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=mPd2aJXCZ2g" target="_blank" class="partner_link">Go to &raquo;</a></p>				</li>
 
 				<li class="mix front-end javascript radio2 option3"><img src="img/jspt3-brad.jpg" alt="JavaScript DOM Pt3 Traversy Media">
 
@@ -380,7 +441,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=wK2cBMcDTss" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=wK2cBMcDTss" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -392,7 +453,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=i37KVt_IcXw" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=i37KVt_IcXw" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -404,7 +465,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=iWOYAxlnaww&list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=iWOYAxlnaww&list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -416,7 +477,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=FlUCU13dJyo&list=PL4cUxeGkcC9gsJS5QgFT2IvWIX78dV3_v" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=FlUCU13dJyo&list=PL4cUxeGkcC9gsJS5QgFT2IvWIX78dV3_v" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -428,7 +489,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=k5E2AVpwsko" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=k5E2AVpwsko" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -440,7 +501,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=yZ0f1Apb5CU&list=PL4cUxeGkcC9i0_2FF-WhtRIfIJ1lXlTZR" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=yZ0f1Apb5CU&list=PL4cUxeGkcC9i0_2FF-WhtRIfIJ1lXlTZR" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -452,7 +513,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=5LYrN_cAJoA&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=5LYrN_cAJoA&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -465,7 +526,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=Ke90Tje7VS0" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=Ke90Tje7VS0" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -477,7 +538,7 @@
 
 					<h3 class="resources">Level: Beginner</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=s7wmiS2mSXY" class="partner_link" target="_blank">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=s7wmiS2mSXY" class="partner_link" target="_blank">Go to &raquo;</a></p>
 
 				</li>
 
@@ -491,7 +552,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=pPy0GQJLZUM" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=pPy0GQJLZUM" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -503,7 +564,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=7S_tz1z_5bA" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=7S_tz1z_5bA" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -511,11 +572,11 @@
 
 					<h2>Python for Programmers</h2>
 
-					<p class="resources">Finally a Python tutorial for programmers! Watch this crash course to learn Python fast.</p>
+					<p class="resources">Finally a Python tutorial for programmers! embed this crash course to learn Python fast.</p>
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=f79MRyMsjrQ" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=f79MRyMsjrQ" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -527,7 +588,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=gfkTfcpWqAY" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=gfkTfcpWqAY" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -539,7 +600,7 @@
 
 					<h3 class="resources">Level: Enthusiast</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=s7wmiS2mSXY" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=s7wmiS2mSXY" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -563,7 +624,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=pKd0Rpw7O48" class="partner_link" target="_blank">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=pKd0Rpw7O48" class="partner_link" target="_blank">Go to &raquo;</a></p>
 
 				</li>
 
@@ -575,7 +636,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=E7Voso411Vs" class="partner_link" target="_blank">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=E7Voso411Vs" class="partner_link" target="_blank">Go to &raquo;</a></p>
 
 				</li>
 
@@ -587,7 +648,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=GcFJjpMFJvI" class="partner_link" target="_blank">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=GcFJjpMFJvI" class="partner_link" target="_blank">Go to &raquo;</a></p>
 
 				</li>
 
@@ -601,7 +662,7 @@
 
 					<h3 class="resources">Level: Advanced</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=J1_A-rdNBNQ" class="partner_link" target="_blank">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=J1_A-rdNBNQ" class="partner_link" target="_blank">Go to &raquo;</a></p>
 
 				</li>
 
@@ -625,7 +686,7 @@
 
 					<h3 class="resources">Level: Beginner</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo" class="partner_link" target="_blank">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo" class="partner_link" target="_blank">Go to &raquo;</a></p>
 
 				</li>
 
@@ -720,7 +781,7 @@
 
 					<h3 class="resources">Q&A</h3>
 
-					<p id="partner_link"><a href="https://www.youtube.com/watch?v=m2N3tmJ_A0Q" target="_blank" class="partner_link">Go to &raquo;</a></p>
+					<p id="partner_link"><a href="https://www.youtube.com/embed?v=m2N3tmJ_A0Q" target="_blank" class="partner_link">Go to &raquo;</a></p>
 
 				</li>
 
@@ -967,16 +1028,21 @@
 	<!-- ===== nav script ===== -->
 
 <script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/modalpage.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
 
 
 <!-- ===== nav script end ===== -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 <script src="js/jquery-2.1.1.js"></script>
 
 <script src="js/jquery.mixitup.min.js"></script>
 
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/main.js"></script>
+
+
+<!-- Resource jQuery -->
 
 </body>
 
