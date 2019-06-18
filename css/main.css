@@ -334,6 +334,30 @@ footer {
 /* Media Queries */
 
   @media(max-width: 768px) {
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }
+
+    .footer_nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+
+    .social_icons {
+        margin-top: 30px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
     .grid {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       max-width: 100%;
@@ -389,6 +413,8 @@ footer {
       .navbar-toggle {
       display: none;
       }
+
+        
   } /* ================ navigation styling end ====================== */
 
   .partners_list {
