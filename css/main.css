@@ -116,6 +116,7 @@ body {
   }
 
   .active {
+      font-weight: 400;
       display: block;
   }
 
