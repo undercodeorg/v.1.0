@@ -128,7 +128,7 @@ body {
 	justify-content: space-between;
 	align-items: stretch;
     align-content: space-between;
-    margin: 50px 0;
+    margin: 80px 0;
 }
 
 .content {
@@ -152,6 +152,10 @@ body {
 .content img {
     width: 100%;
     padding: 0;
+}
+
+.header_link:last-of-type {
+    margin-left: 50px;
 }
 
 .header_link, .partner_link {
@@ -279,7 +283,7 @@ hr {
 }
 
 .shift {
-    margin-top: 40px;
+    margin-top: 72.5px;
     font-size: 18px;
 }
 
@@ -339,7 +343,7 @@ footer {
         top: 0;
         width: 100%;
       }
-      
+
       .sticky + .content {
         padding-top: 60px;
       }
@@ -414,7 +418,7 @@ footer {
       display: none;
       }
 
-        
+
   } /* ================ navigation styling end ====================== */
 
   .partners_list {
@@ -477,7 +481,8 @@ ul li {
 display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, #029DE0, #5563DE);
+  background-color: #029DE0;
+  /* background: linear-gradient(to bottom, #029DE0, #5563DE); */
   font-family: 'Poppins', sans-serif;
   margin-top: 60px;
 }
@@ -498,18 +503,18 @@ display: flex;
     text-align: center;
     overflow: hidden;
   }
-  
+
   .slides {
     display: flex;
-    
+
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    
-    
-    
+
+
+
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    
+
     /*
     scroll-snap-points-x: repeat(300px);
     scroll-snap-type: mandatory;
@@ -539,7 +544,7 @@ display: flex;
     transition: transform 0.5s;
     position: relative;
   }
- 
+
   .slides > div:target {
   /*   transform: scale(0.8); */
   }
@@ -565,7 +570,7 @@ display: flex;
     padding-left: 10px;
     padding-right: 10px;
   } */
-  
+
   .slider > a {
     display: inline-flex;
     width: 1.5rem;
@@ -584,15 +589,15 @@ display: flex;
   .slider > a:focus {
     background: #000;
   }
-  
-  
+
+
   /* Don't need button navigation */
   @supports (scroll-snap-type) {
     .slider > a {
       display: none;
     }
   }
-  
+
   @media screen and (max-width: 767px) {
     .slider {
         width: 300px;
