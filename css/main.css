@@ -277,14 +277,17 @@ hr {
 
 .partner_grid {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
 }
 
-.shift {
-    margin-top: 72.5px;
-    font-size: 18px;
+.icons {
+    margin: 0 auto;
+}
+.left {
+    /* margin-left: -399px; */
+    border-radius: 100%;
 }
 
 .icons img {
