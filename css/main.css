@@ -250,12 +250,33 @@ hr {
     margin: 0;
 }
 
+.btn_resource {
+    margin-top: -65px;
+}
+
+
+.btn_resource p {
+    text-align: center;
+}
+
 .btn_subscribe {
     margin-left: 80px;
     padding: 15px 25px;
     font-family: inherit;
     color: #029DE0;
     font-weight: 600;
+    background-color: rgba(255,255,255,.97);
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.resource_btn {
+    color: #029DE0;
+    padding: 15px 35px;
+    font-size: 15px;
     background-color: rgba(255,255,255,.97);
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
     border: none;
