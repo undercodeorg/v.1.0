@@ -289,6 +289,7 @@ xgallery
 .cd-gallery li h2{
   color: #000;
   font-weight: 400;
+  font-size: 15px;
   margin: 10px 0 5px;
   text-align: center;
   text-transform: uppercase;
@@ -298,7 +299,7 @@ xgallery
 .cd-gallery li p{
   color: #000;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   text-align: center;
   list-style-type: none;
   line-height: 1.6em;
@@ -689,7 +690,7 @@ xcustom form elements
   }
 }
 
-/* /*  Modal Course Show Page   
+/* /*  Modal Course Show Page
 
 .modal {
   /* position: fixed; */
@@ -741,7 +742,7 @@ xcustom form elements
   text-align: center;
   color: #333;
   margin: 50px auto 0 auto;
-} 
+}
 
 .modal-subtitle {
   margin: 15px auto;

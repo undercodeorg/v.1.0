@@ -208,6 +208,11 @@ hr {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.grid_one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .subscribe {
     background-color: #029DE0;
     color: #fff;
@@ -242,6 +247,7 @@ hr {
     border: none;
     cursor: pointer;
     border-radius: 15px;
+    text-decoration: none;
 }
 
 .grid_content {
@@ -250,6 +256,10 @@ hr {
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)!important;
     margin: 20px;
     text-align: center;
+  }
+
+  .center_one {
+      text-align: center;
   }
 
 .center {
@@ -437,6 +447,7 @@ footer {
       text-align: center;
       font-weight: 500;
       /* color: #111; */
+      font-size: 14px;
       margin: 10px 0;
   }
 
