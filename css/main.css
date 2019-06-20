@@ -19,7 +19,16 @@ body {
   .navbar {
       padding-bottom: 10px;
       font-size: .9rem;
+      position: relative;
+      z-index: 150;
   }
+
+  /* for fixed navigation style - don't turn on yet */
+  /* .main-nav-scrolled {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  } */
 
   .form_one {
     text-align: center;
@@ -209,8 +218,13 @@ hr {
 }
 
 .grid_one {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.grid_one_content {
+    margin: 0 auto;
 }
 
 .subscribe {
@@ -301,8 +315,8 @@ hr {
 }
 
 .icons img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 #partner_link {
@@ -361,6 +375,29 @@ footer {
         padding-top: 60px;
       }
 
+      .grid_one_content:last-of-type {
+          margin: 20px 0 0;
+      }
+
+      #slide-1,
+      #slide-2,
+      #slide-3,
+      #slide-4,
+      #slide-5,
+      #slide-6 {
+          width: 90%;
+          padding: 0;
+      }
+
+      #slide-1 img,
+      #slide-2 img,
+      #slide-3 img,
+      #slide-4 img,
+      #slide-5 img,
+      #slide-6 img {
+          width: 80%;
+      }
+
     .footer_nav {
         display: flex;
         justify-content: center;
@@ -385,8 +422,8 @@ footer {
     }
 
     .icons img {
-        max-width: 70px;
-        max-height: 70px;
+        max-width: 150px;
+        max-height: 150px;
     }
 
     .newsletter #quote {
